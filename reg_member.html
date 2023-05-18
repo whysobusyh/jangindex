@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg_membertest.css">
+    <script src="common.js"></script>
+    <script src="reg_membertest.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div id="a">
+            <div>id</div>
+            <div>
+                <input id="sign_id" placeholder="아이디를 입력해주세요" required minlength="6" maxlength="12">
+                <div id="error_area_id"></div>
+            </div>
+            <div>pw</div>
+            <div>
+                <input type="password" id="sign_pw" required placeholder="패스워드" minlength="6" maxlength="12">
+                <div id="error_area_pw"></div>
+            </div>
+            <div>pwr</div>
+            <div>
+                <input type="password" id="sign_pwe" required placeholder="패스워드확인" minlength="6" maxlength="12">
+                <div id="error_area_pwe"></div>
+            </div>
+            <div>Name:</div>
+            <div>
+                <input id="sign_name" placeholder="이름" required>
+                <div id="error_area_name"></div>
+            </div>
+            <div>Email:</div>
+            <div>
+                <input type="email" id="sign_email" placeholder="이메일 주소" required>
+                <div id="error_area_email"></div>
+            </div>
+            <div>Birth:</div>
+            <div>
+                <input type="date" id="sign_birth" placeholder="생년월일" required>
+            </div>
+            <div>Gender</div>
+            <div>
+                <input type="radio" value="man" name="gender">남자
+                <input type="radio" value="woman" name="gender" checked>여자
+            </div>
+            <div>tel:</div>
+            <div>
+                <input type="tel" id="sign_tel1" minlength="2" maxlength="3" required>
+                <input type="tel" id="sign_tel2" minlength="3" maxlength="4" required>
+                <input type="tel" id="sign_tel3" minlength="3" maxlength="4" required>
+            </div>
+            <input type="submit" id="sign_submit" value="회원가입" onclick="testsubmit()">
+        </div>
+        
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+#test_area{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area_id{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area_pw{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area_pwe{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area_name{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area_email{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+#error_area{
+    background-color: red;
+    width: 350px;
+    height: 20px;
+}
+
+#a{
+    width:800px;
+    height:450px;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 80px 600px;
+    grid-template-rows: 50px 50px 50px 50px 50px 23px 23px 20px 20px 20px;
+    }
